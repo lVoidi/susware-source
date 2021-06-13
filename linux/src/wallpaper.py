@@ -1,6 +1,5 @@
 from os import getcwd, listdir, system, path
 from distro import id as distro
-from tkinter import messagebox
 from time import sleep
 from sys import exc_info
 
@@ -23,7 +22,6 @@ def set_wallpapers():
      sleep(5)
 #    Crea la carpeta "wallpapers" donde se almacenarán todas las capturas de pantalla
      try:
-          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           usr = listdir('/home/')[0]
           homedir = f'/home/{usr}/'
           system(f'mkdir {homedir}wallpapers' if 'wallpapers' not in listdir(f'{homedir}') else '#')
@@ -95,8 +93,6 @@ def set_wallpapers():
                     
                     
                     break
-#              Muestra un mensaje en pantalla con la siguiente información
-               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
 #    Para que el usuario no pueda intentar parar el programa presionando ctrl + c
      except KeyboardInterrupt:
           pass
