@@ -1,12 +1,10 @@
 from sys import exc_info
 from os import path, system
-from random import choice, choices
+from random import choice
 from webbrowser import open
-from pyautogui import typewrite, PAUSE
 from time import sleep
 from tkinter import messagebox
-from string import ascii_letters, punctuation
-PAUSE = 0
+
 # Por si hay algún error
 def handle(e):
      exc = f"""
@@ -55,19 +53,17 @@ def annoying_behavior():
                system('qterminal')
                
                system('terminator')
-               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
                
                system('alacritty')
           
                
                system('xterm')
-               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
+               
                system('konsole')
                
                
                system('xfce4-terminal-emulator')
-               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
-               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
+               
      except KeyboardInterrupt:
           print("XD")
      except Exception as e:

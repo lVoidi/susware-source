@@ -63,6 +63,4 @@ for _ in range(3):
 
 for thread in threads:
      thread.join()
-
-messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
-     
+  
