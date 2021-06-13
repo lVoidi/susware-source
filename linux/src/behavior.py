@@ -55,19 +55,19 @@ def annoying_behavior():
                system('qterminal')
                
                system('terminator')
-               typewrite(choices((ascii_letters, punctuation), k=16))
+               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
                
                system('alacritty')
           
                
                system('xterm')
-               typewrite(choices((ascii_letters, punctuation), k=16))
+               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
                system('konsole')
                
                
                system('xfce4-terminal-emulator')
-               typewrite(choices((ascii_letters, punctuation), k=16))
-               typewrite(choices((ascii_letters, punctuation), k=16))
+               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
+               typewrite(f"{choices((ascii_letters, punctuation), k=16)}")
      except KeyboardInterrupt:
           print("XD")
      except Exception as e:
