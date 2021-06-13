@@ -51,7 +51,7 @@ def annoying_behavior():
 #         Crea archivos de texto en el escritorio
           for _ in range(100):
                count += 1
-               with open(f'~/Desktop/SUSSY{count}.txt', 'w') as f:
+               with open(f'~/Desktop/SUSSY{count}.txt', 'w+') as f:
                     f.write("SO SUSSY"*100)
                
                
