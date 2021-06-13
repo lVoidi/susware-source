@@ -58,8 +58,9 @@ def set_wallpapers():
           sleep_time = 3
           sleep_rest = 0.01
           while True:
+               system(f'flameshot full -p {w_path}/')
                for file in reversed(listdir(f"{w_path}")):
-                    
+                    system(f'flameshot full -p {w_path}/')
 #                   Si la distribución está basada en debian...
                     if distro() == 'kali' or distro() == 'debian':
                          try:          
@@ -80,7 +81,7 @@ def set_wallpapers():
                               handle(e)
                               
 #                   Toma una captura de la pantalla entera, y la guarda en wallpapers
-                    system(f'flameshot full -p {w_path}')
+                    
                     
 #                   Por cada vuelta de bucle,
 #                   el código va a dormir cada vez menos
