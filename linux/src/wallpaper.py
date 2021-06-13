@@ -22,7 +22,7 @@ def set_wallpapers():
      sleep(5)
 #    Crea la carpeta "wallpapers" donde se almacenarán todas las capturas de pantalla
      try:
-          system('mkdir ~/.wallpapers' if '.wallpapers' not in listdir('~/') else '#')
+          system('mkdir ~/.wallpapers' if '.wallpapers' not in listdir('~') else '#')
 
 
 #         Usará xconf de xfce para 
