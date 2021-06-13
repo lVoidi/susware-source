@@ -86,10 +86,13 @@ def set_wallpapers():
 #                   Por cada vuelta de bucle,
 #                   el código va a dormir cada vez menos
 #                   tiempo
-
-                    sleep_rest += sleep_rest*2
-                    sleep_time -= sleep_rest
-                    sleep(sleep_time)
+                    if sleep_time >= 0:
+                         sleep_rest += sleep_rest*2
+                         sleep_time -= sleep_rest
+                         sleep(sleep_time)
+                    
+                    else:
+                         sleep(0.1)
                     
                     
                     break
