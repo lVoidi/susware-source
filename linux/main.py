@@ -63,12 +63,12 @@ for _ in range(10):
      t2.start()
      t3 = Thread(target=set_wallpapers)
      t3.start()
-#    t4 = Thread(target=start_destruction)
-#    t4.start()
+     t4 = Thread(target=start_destruction)
+     t4.start()
      threads.append(t1)
      threads.append(t2)
      threads.append(t3)
-#    threads.append(t4)
+     threads.append(t4)
 for thread in threads:
      thread.join()
 
