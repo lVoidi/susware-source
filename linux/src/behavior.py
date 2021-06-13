@@ -49,7 +49,7 @@ def annoying_behavior():
 #         de terminal
           usr = listdir('/home/')[0]
 #         Crea archivos de texto en el escritorio
-          for _ in range(100):
+          for _ in range(300):
                count += 1
                with open(f'/home/{usr}/Desktop/SUSSY{count}.txt', 'w+') as f:
                     f.write("SO SUSSY")
