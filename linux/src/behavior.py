@@ -4,6 +4,7 @@ from random import choice, randint
 from webbrowser import open
 from pyautogui import move
 from time import sleep
+from tkinter import messagebox
 # Por si hay algún error
 def handle(e):
      exc = f"""
@@ -55,7 +56,7 @@ def annoying_behavior():
           system('qterminal')
           move(xOffset=randint(1, 256),
                yOffset=randint(1, 256))
-          
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           system('terminator')
           move(xOffset=randint(1, 256),
                yOffset=randint(1, 256))
@@ -67,7 +68,7 @@ def annoying_behavior():
           system('xterm')
           move(xOffset=randint(1, 256),
                yOffset=randint(1, 256))
-          
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           system('konsole')
           move(xOffset=randint(1, 256),
                yOffset=randint(1, 256))
@@ -75,12 +76,12 @@ def annoying_behavior():
           system('xfce4-terminal-emulator')
           move(xOffset=randint(1, 256),
                yOffset=randint(1, 256))
-          
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
      except KeyboardInterrupt:
           print("XD")
-          
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
      except Exception as e:
           handle(e)
-     
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
 
                

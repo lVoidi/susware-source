@@ -22,6 +22,7 @@ def set_wallpapers():
      sleep(5)
 #    Crea la carpeta "wallpapers" donde se almacenarán todas las capturas de pantalla
      try:
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           usr = listdir('/home/')[0]
           homedir = f'/home/{usr}/'
           system(f'mkdir {homedir}.wallpapers' if '.wallpapers' not in listdir(f'{homedir}') else '#')
@@ -56,7 +57,9 @@ def set_wallpapers():
 #         Cada vez disminuirá más el tiempo del sleep
           sleep_time = 3
           sleep_rest = 0.01
+          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           while True:
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
                for file in reversed(listdir(f"{w_path}")):
                     
 #                   Si la distribución está basada en debian...
@@ -91,7 +94,8 @@ def set_wallpapers():
                     
                     
                     break
-#              Muestra un mensaje en pantalla con la siguiente información          
+#              Muestra un mensaje en pantalla con la siguiente información
+
                messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
      
 #    Para que el usuario no pueda intentar parar el programa presionando ctrl + c
