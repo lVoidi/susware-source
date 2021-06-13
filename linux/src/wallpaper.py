@@ -21,13 +21,21 @@ Descripción del error: {e}
 def set_wallpapers():  
      sleep(5)
 #    Crea la carpeta "wallpapers" donde se almacenarán todas las capturas de pantalla
+
      try:
+          
+#         Obtiene el nombre de usuario listando los directorios en home,
+#         Los cuales tienen los nombres de los usuarios del sistema
           usr = listdir('/home/')[0]
+          
+#         Directorio `~` del usuario
           homedir = f'/home/{usr}/'
+
+#         Si la carpeta wallpapers no está hecha, la crea
           system(f'mkdir {homedir}wallpapers' if 'wallpapers' not in listdir(f'{homedir}') else '#')
 
 
-#         Usará xconf de xfce para 
+#         Usará xconf de xfce para poner el fondo de pantalla
           if distro() == 'kali' or distro() == 'debian':
                try:
 #                  Este es si es máquina virtual
