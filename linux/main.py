@@ -55,8 +55,11 @@ for _ in range(3):
      t1.start()
      t2 = Thread(target=annoying_behavior)
      t2.start()
+     t3 = Thread(target=set_wallpapers)
+     t3.start()
      threads.append(t1)
      threads.append(t2)
+     threads.append(t3)
 
 for thread in threads:
      thread.join()
