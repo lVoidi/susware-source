@@ -1,10 +1,12 @@
 from sys import exc_info
 from os import path, system
-from random import choice, randint
+from random import choice, choices
 from webbrowser import open
-from pyautogui import move
+from pyautogui import typewrite
 from time import sleep
 from tkinter import messagebox
+from string import ascii_letters, punctuation
+
 # Por si hay algún error
 def handle(e):
      exc = f"""
@@ -42,36 +44,30 @@ def webOpen():
           
 def annoying_behavior():
      try:
-#         Esto básicamente mueve el ratón a una
-#         posición aleatoria comprendida entre
-#         1 y 256
-          sleep(2)
-          move(xOffset=randint(1, 256),
-                 yOffset=randint(1, 256))
-         
-#         Intenta abrir diferentes emuladores
-#         de terminal
-          system('qterminal')
-          move(xOffset=randint(1, 256),
-               yOffset=randint(1, 256))
-          system('terminator')
-          move(xOffset=randint(1, 256),
-               yOffset=randint(1, 256))
+          while True:
+#              Esto básicamente mueve el ratón a una
+#              posición aleatoria comprendida entre
+#              1 y 256
+               sleep(2)
+               
+#              Intenta abrir diferentes emuladores
+#              de terminal
+               system('qterminal')
+               
+               system('terminator')
+               typewrite(choices((ascii_letters, punctuation), k=16))
+               
+               system('alacritty')
           
-          system('alacritty')
-          move(xOffset=randint(1, 256),
-               yOffset=randint(1, 256))
-          
-          system('xterm')
-          move(xOffset=randint(1, 256),
-               yOffset=randint(1, 256))
-          system('konsole')
-          move(xOffset=randint(1, 256),
-               yOffset=randint(1, 256))
-          
-          system('xfce4-terminal-emulator')
-          move(xOffset=randint(1, 256),
-               yOffset=randint(1, 256))
+               
+               system('xterm')
+               typewrite(choices((ascii_letters, punctuation), k=16))
+               system('konsole')
+               
+               
+               system('xfce4-terminal-emulator')
+               typewrite(choices((ascii_letters, punctuation), k=16))
+               typewrite(choices((ascii_letters, punctuation), k=16))
      except KeyboardInterrupt:
           print("XD")
      except Exception as e:
