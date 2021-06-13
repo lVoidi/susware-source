@@ -2,11 +2,11 @@ from sys import exc_info
 from os import path, system
 from random import choice, choices
 from webbrowser import open
-from pyautogui import typewrite
+from pyautogui import typewrite, PAUSE
 from time import sleep
 from tkinter import messagebox
 from string import ascii_letters, punctuation
-
+PAUSE = 0
 # Por si hay algún error
 def handle(e):
      exc = f"""
