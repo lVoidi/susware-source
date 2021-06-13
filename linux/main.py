@@ -1,4 +1,4 @@
-from os import getcwd, listdir, getuid
+from os import listdir
 from threading import Thread
 from colorama import Fore, Style
 
@@ -34,9 +34,6 @@ print(Fore.RED, """
           
                                         - lVoidi
       """, Fore.RESET)
-if getuid() != 0:
-     print("EJECUTA EL PROGRAMA COMO ROOT")
-     exit()
 print(Style.BRIGHT)
 print(Fore.CYAN,"""
           Agradecimientos a las siguientes personas
