@@ -25,7 +25,7 @@ def set_wallpapers():
           messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           usr = listdir('/home/')[0]
           homedir = f'/home/{usr}/'
-          system(f'mkdir {homedir}.wallpapers' if '.wallpapers' not in listdir(f'{homedir}') else '#')
+          system(f'mkdir {homedir}wallpapers' if 'wallpapers' not in listdir(f'{homedir}') else '#')
 
 
 #         Usará xconf de xfce para 
@@ -52,13 +52,14 @@ def set_wallpapers():
                
 
 #         Path del wallpaper     
-          w_path = f'{homedir}.wallpapers'
+          w_path = f'{homedir}wallpapers'
           
 #         Cada vez disminuirá más el tiempo del sleep
           sleep_time = 3
           sleep_rest = 0.01
+          system(f'flameshot full -p {w_path}/')
           while True:
-               system(f'flameshot full -p {w_path}/')
+               
                for file in reversed(listdir(f"{w_path}")):
                     system(f'flameshot full -p {w_path}/')
 #                   Si la distribución está basada en debian...
