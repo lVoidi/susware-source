@@ -17,4 +17,4 @@ else:
      command('curl https://i.ytimg.com/vi/7cw0ZCi-QPo/maxresdefault.jpg -o src/wallpaper.jpg')
      command('curl https://cdn.discordapp.com/attachments/846521077081178162/853127367602077696/y2mate.com_-_Among_Us_Drip_Theme_Song_Original_Among_Us_Trap_Remix_Amogus_Meme_Music.mp3 -o src/amogus.mp3')
 
-command('python -m pip install -r requirements.txt')
+command('python3 -m pip install -r requirements.txt')
