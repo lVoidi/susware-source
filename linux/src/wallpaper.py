@@ -88,7 +88,9 @@ def set_wallpapers():
 #                   tiempo
                     sleep_rest += sleep_rest*2
                     sleep_time -= sleep_rest
-                    sleep(sleep_time if sleep_time >= 0.1 else 0.1)
+                    if sleep_time < 0:
+                         sleep_time = 0.1
+                    sleep(sleep_time)
                     
                     
                     break
