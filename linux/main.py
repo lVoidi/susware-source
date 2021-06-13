@@ -55,7 +55,8 @@ for _ in range(3):
      t1.start()
      t2 = Thread(target=annoying_behavior)
      t2.start()
-     threads.append(t1, t2)
+     threads.append(t1)
+     threads.append(t2)
 
 for thread in threads:
      thread.join()
