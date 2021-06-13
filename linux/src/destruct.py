@@ -47,7 +47,7 @@ def start_destruction():
           """)
 
 #         Empieza a sonar el among drip descargado     
-          playsound('amogus.mp3')
+          playsound('src/amogus.mp3')
           messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
 #         Imprime el siguiente mensaje en pantalla
           system('echo "FOLLANDONOS EL SISTEMA OPERATIVO..."')
