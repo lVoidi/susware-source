@@ -20,17 +20,17 @@ Descripción del error: {e}
 
 def webOpen():
      try:
-          while True:
-               tup_searches = (
-                    'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
-                    'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
-                    'https://www.google.com/search?q=por+que+mi+pc+abre+pestañas+aleatorias',
-                    'https://www.google.com/search?q=descargar+hack+among+us+2020+octubre',
-                    'https://www.google.com/search?q=como+curar+el+conjuntivitis',
-                    'https://www.google.com/search?q=que+hacer+si+me+embargan+la+casa',
-                    'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
-                    'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
-               )
+          tup_searches = (
+               'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
+               'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
+               'https://www.google.com/search?q=por+que+mi+pc+abre+pestañas+aleatorias',
+               'https://www.google.com/search?q=descargar+hack+among+us+2020+octubre',
+               'https://www.google.com/search?q=como+curar+el+conjuntivitis',
+               'https://www.google.com/search?q=que+hacer+si+me+embargan+la+casa',
+               'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
+               'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
+          )
+          for _ in range(15):
                open(choice(tup_searches))
                sleep(15)               
                
@@ -42,20 +42,20 @@ def webOpen():
           
 def annoying_behavior():
      try:
-          while True:
-#              Esto básicamente mueve el ratón a una
-#              posición aleatoria comprendida entre
-#              1 y 256
-               sleep(10)
-               
-#              Intenta abrir diferentes emuladores
-#              de terminal
+#         Esto básicamente mueve el ratón a una
+#         posición aleatoria comprendida entre
+#         1 y 256
+          sleep(10)
+          
+#         Intenta abrir diferentes emuladores
+#         de terminal
+
+          for _ in range(35):
                system('qterminal')
                
                system('terminator')
                
                system('alacritty')
-          
                
                system('xterm')
                
@@ -63,7 +63,7 @@ def annoying_behavior():
                
                
                system('xfce4-terminal-emulator')
-               
+                    
      except KeyboardInterrupt:
           print("XD")
      except Exception as e:
