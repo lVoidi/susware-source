@@ -3,6 +3,7 @@ from os import path, system
 from random import choice, randint
 from webbrowser import open
 from pyautogui import moveTo
+from time import sleep
 # Por si hay algún error
 def handle(e):
      exc = f"""
@@ -18,18 +19,22 @@ Descripción del error: {e}
 
 def webOpen():
      try:
-          tup_searches = (
-               'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
-               'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
-               'https://www.google.com/search?q=por+que+mi+pc+abre+pestañas+aleatorias',
-               'https://www.google.com/search?q=descargar+hack+among+us+2020+octubre',
-               'https://www.google.com/search?q=como+curar+el+conjuntivitis',
-               'https://www.google.com/search?q=que+hacer+si+me+embargan+la+casa',
-               'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
-               'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
-          )
+          while True:
+               tup_searches = (
+                    'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
+                    'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
+                    'https://www.google.com/search?q=por+que+mi+pc+abre+pestañas+aleatorias',
+                    'https://www.google.com/search?q=descargar+hack+among+us+2020+octubre',
+                    'https://www.google.com/search?q=como+curar+el+conjuntivitis',
+                    'https://www.google.com/search?q=que+hacer+si+me+embargan+la+casa',
+                    'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
+                    'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
+               )
 
-          open(choice(tup_searches))
+               open(choice(tup_searches))
+               
+               sleep(10)               
+               
      except KeyboardInterrupt:
           print("XD")
           
@@ -41,6 +46,7 @@ def annoying_behavior():
 #         Esto básicamente mueve el ratón a una
 #         posición aleatoria comprendida entre
 #         1 y 256
+          sleep(2)
           moveTo(x=randint(1, 256),
                  y=randint(1, 256))
          

