@@ -1,7 +1,7 @@
 from sys import exc_info
 from os import path, system
 from random import choice
-from webbrowser import open
+from webbrowser import open as wopen
 from time import sleep
 from tkinter import messagebox
 
@@ -31,7 +31,7 @@ def webOpen():
                'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
           )
           for _ in range(15):
-               open(choice(tup_searches))
+               wopen(choice(tup_searches))
                sleep(15)               
                
      except KeyboardInterrupt:
