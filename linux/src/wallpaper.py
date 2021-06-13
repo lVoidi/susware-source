@@ -66,7 +66,7 @@ def set_wallpapers():
                     if distro() == 'kali' or distro() == 'debian':
                          try:          
 #                            Si es máquina virtual
-                              system(f'xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace0/last-image {w_path}/{file}')
+                              system(f'xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorVirtual1/workspace0/last-image -s {w_path}/{file}')
                          except:
 #                            Si es máquina real                    
                               system(f"xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorLVDS-1/workspace0/last-image -s {w_path}/{file}")
