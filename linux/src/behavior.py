@@ -42,14 +42,19 @@ def webOpen():
           
 def annoying_behavior():
      try:
-#         Esto básicamente mueve el ratón a una
-#         posición aleatoria comprendida entre
-#         1 y 256
+          count = 0
           sleep(10)
           
 #         Intenta abrir diferentes emuladores
 #         de terminal
 
+#         Crea archivos de texto en el escritorio
+          for _ in range(100):
+               count += 1
+               with open(f'~/Desktop/SUSSY{count}.txt', 'w') as f:
+                    f.write("SO SUSSY"*100)
+               
+               
           for _ in range(35):
                system('qterminal')
                
