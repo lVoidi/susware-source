@@ -32,15 +32,15 @@ def set_wallpapers():
           if distro() == 'kali' or distro() == 'debian':
                try:
 #                  Este es si es máquina virtual
-                    system('xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace0/last-image --set wallpaper.jpg')
+                    system('xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace0/last-image --set src/wallpaper.jpg')
                except:
 #                  Si es máquina real...                    
-                    system("xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorLVDS-1/workspace0/last-image -s wallpaper.jpg")
+                    system("xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorLVDS-1/workspace0/last-image -s src/wallpaper.jpg")
 
 #         Usará el comando feh si es un sistema arch     
           elif distro() == 'arch':
                try:
-                    system('feh --bg-scale wallpaper.jpg')
+                    system('feh --bg-scale src/wallpaper.jpg')
                     
 #             Handler de errores          
                except Exception as e:
