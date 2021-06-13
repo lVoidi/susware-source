@@ -57,9 +57,7 @@ def set_wallpapers():
 #         Cada vez disminuirá más el tiempo del sleep
           sleep_time = 3
           sleep_rest = 0.01
-          messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
           while True:
-               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
                for file in reversed(listdir(f"{w_path}")):
                     
 #                   Si la distribución está basada en debian...
@@ -95,8 +93,7 @@ def set_wallpapers():
                     
                     break
 #              Muestra un mensaje en pantalla con la siguiente información
-               for _ in range(5):
-                    messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
+               messagebox.askquestion(title="Sigues ahi?", message="Sigues usando el pc? disfruta sus  ultimos instantes de vida")
 #    Para que el usuario no pueda intentar parar el programa presionando ctrl + c
      except KeyboardInterrupt:
           pass
