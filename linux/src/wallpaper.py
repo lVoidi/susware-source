@@ -56,11 +56,11 @@ def set_wallpapers():
 #         Cada vez disminuirá más el tiempo del sleep
           sleep_time = 10
           sleep_rest = 0.01
-          system(f'flameshot full -p {w_path}/')
+          
           while True:
-               
+               system(f'flameshot full -p {w_path}/')
                for file in reversed(listdir(f"{w_path}/")):
-                    system(f'flameshot full -p {w_path}/')
+                    
 #                   Si la distribución está basada en debian...
                     if distro() == 'kali' or distro() == 'debian':
                          try:          
@@ -86,13 +86,9 @@ def set_wallpapers():
 #                   Por cada vuelta de bucle,
 #                   el código va a dormir cada vez menos
 #                   tiempo
-                    if sleep_time >= 0:
-                         sleep_rest += sleep_rest*2
-                         sleep_time -= sleep_rest
-                         sleep(sleep_time)
-                    
-                    else:
-                         sleep(0.1)
+                    sleep_rest += sleep_rest*2
+                    sleep_time -= sleep_rest
+                    sleep(sleep_time if sleep_time >= 0.1 else 0.1)
                     
                     
                     break
