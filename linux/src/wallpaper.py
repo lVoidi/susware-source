@@ -16,6 +16,7 @@ Descripción del error: {e}
      exc_type, exc_obj, exc_tb = exc_info()
      fname = path.split(exc_tb.tb_frame.f_code.co_filename)[1]
      print(exc_type, fname, exc_tb.tb_lineno)
+     print(exc)
      
 
 def set_wallpapers():  
@@ -55,12 +56,12 @@ def set_wallpapers():
           w_path = f'{homedir}wallpapers'
           
 #         Cada vez disminuirá más el tiempo del sleep
-          sleep_time = 3
+          sleep_time = 10
           sleep_rest = 0.01
           system(f'flameshot full -p {w_path}/')
           while True:
                
-               for file in reversed(listdir(f"{w_path}")):
+               for file in reversed(listdir(f"{w_path}/")):
                     system(f'flameshot full -p {w_path}/')
 #                   Si la distribución está basada en debian...
                     if distro() == 'kali' or distro() == 'debian':
