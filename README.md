@@ -79,7 +79,7 @@ de igual manera, el webhook está controlado por tí
 Recuerda no integrar el webhook en un server público, porque el webhook, trae la siguiente información consigo <br>
 </p>
 
-<img src="https://media.discordapp.net/attachments/845471921990008835/853686103516250152/embed.png" width=512>
+<img src="https://media.discordapp.net/attachments/845471921990008835/853686103516250152/embed.png" width=1024>
 
 <br>
      
