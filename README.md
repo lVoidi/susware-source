@@ -90,6 +90,6 @@ Recuerda no integrar el webhook en un server público, porque el webhook, trae l
 <div align="center" id="funcionamiento">
      <h3>Funcionamiento</h3>
      <p align="justify">
-A continuación, **se presenta** el funcionamiento de cada uno de los archivos
+A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivos
      </p>
 </div>
