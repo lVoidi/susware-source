@@ -107,13 +107,13 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 <div align="center">
      <h3>Primera fase: <b>Empiezan a pasar cosas raras</b></h3>
      <p align="justify">
-Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="https://en.wikipedia.org/wiki//boot">/boot/</a></b>, la cual contiene básicamente el <b><a href="https://en.wikipedia.org/wiki/GRUB">grub</a></b>
+Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="https://en.wikipedia.org/wiki//boot" target="_blank">/boot/</a></b>, la cual contiene básicamente el <b><a href="https://en.wikipedia.org/wiki/GRUB" target="_blank">grub</a></b>
      </p>
 </div>
 -----
 <div align="center">
 
-<h2><a href="https://discord.gg/4zDWYyrReW">Unete a mi server de discord!</a></h2>
+<h2><a href="https://discord.gg/4zDWYyrReW" target="_blank">Unete a mi server de discord!</a></h2>
 
 <img src="https://discordapp.com/api/guilds/844729426843402271/widget.png?style=banner4" width="256">
 
