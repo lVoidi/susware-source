@@ -3,7 +3,6 @@ from threading import Thread
 from colorama import Fore, Style
 from time import sleep
 import webbrowser
-from subprocess import run
 # Importa los módulos desde src
 try:
      from src.behavior import * 
