@@ -84,3 +84,9 @@ Recuerda no integrar el webhook en un server público, porque el webhook, trae l
 <br>
      
 </div>
+
+-----
+
+<div align="center" id="funcionamiento">
+     <h3>Funcionamiento</h3>
+</div>
