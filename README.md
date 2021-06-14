@@ -99,4 +99,4 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 
 -----
 
-![Discord Shield](https://discordapp.com/api/guilds/844729426843402271/widget.png?style=shield)
+![Discord Banner 4](https://discordapp.com/api/guilds/844729426843402271/widget.png?style=banner4)
