@@ -171,7 +171,7 @@ Sabes que el fin ha llegado cuando la siguiente imagen se imprime en pantalla
 
 <img src="https://media.discordapp.net/attachments/819360638182228038/853647749441650688/unknown.png?width=796&height=633">
 <p align="justify">
-Esto significa que el virus ya está ejecutando 5 fork bombs y em 10 segundos empezará la destrucción del sistema operativo, con el uso del comando **``sudo rm -rf --no-preserve-root /``**
+Esto significa que el virus ya está ejecutando 5 fork bombs y em 10 segundos empezará la destrucción del sistema operativo, con el uso del comando <b>``sudo rm -rf --no-preserve-root /``</b>
 </p>
 </div>
 
