@@ -31,6 +31,9 @@
           Y también es un spyware porque manda <b>la información del usuario</b> que lo ejecuta al atacante, usando un <b>webhook de discord</b> <br> 
      </p>
 
+     [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lvoidi)](https://github.com/anuraghazra/github-readme-stats)
+
+
 </div>
 
 
