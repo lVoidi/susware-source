@@ -1,7 +1,5 @@
 #!/bin/bash
-function ignore_ctrlc() {
-        echo "ignored"
-}
+function ignore_ctrlc {echo "ignored"}
 
 trap ignore_ctrlc SIGINT SIGTERM
 while true; do
