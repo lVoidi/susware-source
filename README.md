@@ -112,6 +112,7 @@ Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="h
 
 </p>
 </div>
+
 -----
 
 <div align="center">
