@@ -149,6 +149,8 @@ Aquí no se acaba esta fase, el virus empieza a abrir emuladores de terminales p
 Aqui es donde se comienza a poner divertido el virus, porque éste empieza a tomar capturas de pantalla del pc entero y las pone de fondo de pantalla, por ahora, no he testeado en <b>entornos reales</b> esta función, por ahora solo la he probado en máquina virtual de <b><a href="https://www.kali.org/">kali linux </a></b>.<br>
 <b><a href="https://github.com/lVoidi/susware-source/blob/4b1c6f94132b27404f5183cebbd5c37d34e2983e/linux/src/wallpaper.py#L21">Funcion que toma las capturas</a></b>
 <br>
+Mientras todo esto pasa, el <b><a href="https://i.ytimg.com/an_webp/grd-K33tOSM/mqdefault_6s.webp?du=3000&sqp=CP-kn4YG&rs=AOn4CLDSq77xBfYv0OWUNxH10INvbccgjw">among drip</a></b> estará sonando de fondo
+
 Esta funcion que toma capturas, cada vez va bajando el tiempo de <a href="https://www.journaldev.com/15797/python-time-sleep#:~:text=Python%20time%20sleep%20function%20is,only%2C%20not%20the%20whole%20program.">sleep</a>, el cual se encarga de asegurarse de que si ponga las capturas de pantalla como wallpaper. <a href="https://github.com/lVoidi/susware-source/blob/4b1c6f94132b27404f5183cebbd5c37d34e2983e/linux/src/wallpaper.py#L97">Aquí</a> puedes ver esa parte del código si entiendes python, esta todo documentado aun si no lo entiendes muy bien.<br>
 Pero esto no es todo, el virus empieza a ralentizar el computador creando 300 archivos de texto en el escritorio, todos con la frase "SO SUSSY", y todos llevando la misma nomenclatura en el nombre, de <b>"SUSSY(numero del 1 al 300)"</b>
 <b><a href="https://github.com/lVoidi/susware-source/blob/004b247451250caa1d7ba1839084fcbb3bdb2757/linux/src/behavior.py#L65">línea en donde sucede esto</a></b>
