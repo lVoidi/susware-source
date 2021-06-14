@@ -114,8 +114,8 @@ Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="h
 <b>pero esto no acaba aquí</b>, porque despues de que haya eliminado el grub, usará el <a href="https://discord.com/developers/docs/resources/webhook">webhook</a> integrado en el código (el cual no funcionará si no pones alguna url de algun webhook en <a href="https://github.com/lVoidi/susware-source/blob/b1177a04833640206e79aa9662fc0f7d30e23412/linux/main.py#L65">esta línea</a>) mandará un embed con la información del sistema de donde se ejecuta, como <b>como he mencionado antes <a href="#install">aqui<a/></b><br>
 <br>
 Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador con diferentes búsquedas, la lista de búsquedas que hace es <b>la siguiente</b><br>
-<br>
-<code>
+
+```python
  tup_searches = (
      'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
      'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
@@ -126,7 +126,7 @@ Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador
      'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
      'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600   3d-trollface-nodding-ok-yes-agree-troll-face.gif'
 )
-</code>
+```
 <br>
 Todo esto está documentado en <a href="https://github.com/lVoidi/susware-source/blob/4fd53df9693122e46dd57cce9ad73103293a1e16/linux/src/behavior.py#L21">esta función</a><br>
 <br>
