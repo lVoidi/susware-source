@@ -99,6 +99,4 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 
 -----
 
-<p>
-<iframe src="https://discord.com/widget?id=844729426843402271&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">Mi servidor de discord</iframe>
-</p>
+![Discord Shield](https://discordapp.com/api/guilds/844729426843402271/widget.png?style=shield)
