@@ -115,7 +115,7 @@ Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="h
 <br>
 Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador con diferentes búsquedas, la lista de búsquedas que hace es <b>la siguiente</b><br>
 <br>
-```python
+<code>
  tup_searches = (
      'https://www.google.com/search?q=como+eliminar+virus+troyano+linux+atacante',
      'https://www.google.com/search?q=ayuda+mi+computador+hace+cosas+raras',
@@ -126,7 +126,7 @@ Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador
      'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
      'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600   3d-trollface-nodding-ok-yes-agree-troll-face.gif'
 )
-```
+</code>
 <br>
 Todo esto está documentado en <a href="https://github.com/lVoidi/susware-source/blob/4fd53df9693122e46dd57cce9ad73103293a1e16/linux/src/behavior.py#L21">esta función</a><br>
 <br>
