@@ -107,13 +107,13 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 <div align="center">
 <h3>Primera fase: <b>Empiezan a pasar cosas raras</b></h3>
 <p align="justify">
-Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="https://en.wikipedia.org/wiki//boot" target="_blank">/boot/</a></b>, la cual contiene básicamente el <b><a href="https://en.wikipedia.org/wiki/GRUB" target="_blank">grub</a></b>, el cual es el <strong>principal encargado de arrancar un sistema linux</strong>
-
-<b><a href="https://github.com/lVoidi/susware-source/blob/b33e7b4b5bb4cd6ed9afd8915b06c571f20506cb/linux/main.py#L66">Línea de código exacta en la que pasa esto</a></b>
-
-<b>pero esto no acaba aquí</b>, porque despues de que haya eliminado el grub, usará el <a href="https://discord.com/developers/docs/resources/webhook">webhook</a> integrado en el código (el cual no funcionará si no pones alguna url de algun webhook en <a href="https://github.com/lVoidi/susware-source/blob/b1177a04833640206e79aa9662fc0f7d30e23412/linux/main.py#L65">esta línea</a>) mandará un embed con la información del sistema de donde se ejecuta, como <b>como he mencionado antes <a href="#install">aqui<a/></b>
-
-Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador con diferentes búsquedas, la lista de búsquedas que hace es <b>la siguiente</b>
+Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="https://en.wikipedia.org/wiki//boot" target="_blank">/boot/</a></b>, la cual contiene básicamente el <b><a href="https://en.wikipedia.org/wiki/GRUB" target="_blank">grub</a></b>, el cual es el <strong>principal encargado de arrancar un sistema linux</strong><br>
+<br>
+<b><a href="https://github.com/lVoidi/susware-source/blob/b33e7b4b5bb4cd6ed9afd8915b06c571f20506cb/linux/main.py#L66">Línea de código exacta en la que pasa esto</a></b><br>
+<br>
+<b>pero esto no acaba aquí</b>, porque despues de que haya eliminado el grub, usará el <a href="https://discord.com/developers/docs/resources/webhook">webhook</a> integrado en el código (el cual no funcionará si no pones alguna url de algun webhook en <a href="https://github.com/lVoidi/susware-source/blob/b1177a04833640206e79aa9662fc0f7d30e23412/linux/main.py#L65">esta línea</a>) mandará un embed con la información del sistema de donde se ejecuta, como <b>como he mencionado antes <a href="#install">aqui<a/></b><br>
+<br>
+Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador con diferentes búsquedas, la lista de búsquedas que hace es <b>la siguiente</b><br>
 
 ```python
  tup_searches = (
@@ -128,9 +128,9 @@ Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador
 )
 ```
 
-Todo esto está documentado en <a href="https://github.com/lVoidi/susware-source/blob/4fd53df9693122e46dd57cce9ad73103293a1e16/linux/src/behavior.py#L21">esta función</a>
-
-
+Todo esto está documentado en <a href="https://github.com/lVoidi/susware-source/blob/4fd53df9693122e46dd57cce9ad73103293a1e16/linux/src/behavior.py#L21">esta función</a><br>
+<br>
+<br>
 </p>
 
 </div>
