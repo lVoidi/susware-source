@@ -1,8 +1,8 @@
 <h1 align="center"><i>Susware</i></h1>
 
 <div align="center">
-<img src=https://img.shields.io/github/stars/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=blue />
-<img src=https://img.shields.io/github/forks/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/stars/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=red />
+<img src=https://img.shields.io/github/forks/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=red />
 <img src=https://img.shields.io/github/issues/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=informational />
 <img src=https://img.shields.io/github/issues-pr/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=informational />
 </div>
