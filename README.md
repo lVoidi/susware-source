@@ -20,7 +20,6 @@
 
 <div align="center">
      <h3> ¿Que es susware?</h3>  
-
      <p>
           Susware es un malware joke hecho con el objetivo de sacar una sonrisa <br>
           Susware puede entrar dentro de 3 categorías <br>
