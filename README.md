@@ -130,7 +130,12 @@ Lo último que pasa en esta fase, es que empieza a abrir pestañas del navegador
 <br>
 Todo esto está documentado en <a href="https://github.com/lVoidi/susware-source/blob/4fd53df9693122e46dd57cce9ad73103293a1e16/linux/src/behavior.py#L21">esta función</a><br>
 <br>
-<br>
+
+Aquí no se acaba esta fase, el virus empieza a abrir emuladores de terminales para hacer que sea difícil el encontrar la terminal original
+
+<img src="https://media.discordapp.net/attachments/819360638182228038/853654640864657428/unknown.png?width=1124&height=632">
+
+
 </p>
 
 </div>
@@ -146,8 +151,19 @@ Aqui es donde se comienza a poner divertido el virus, porque éste empieza a tom
 <br>
 Esta funcion que toma capturas, cada vez va bajando el tiempo de <a href="https://www.journaldev.com/15797/python-time-sleep#:~:text=Python%20time%20sleep%20function%20is,only%2C%20not%20the%20whole%20program.">sleep</a>, el cual se encarga de asegurarse de que si ponga las capturas de pantalla como wallpaper. <a href="https://github.com/lVoidi/susware-source/blob/4b1c6f94132b27404f5183cebbd5c37d34e2983e/linux/src/wallpaper.py#L97">Aquí</a> puedes ver esa parte del código si entiendes python, esta todo documentado aun si no lo entiendes muy bien.
 </p>
+<h4>Imagen ilustrativa de esta fase</h4>
+
+<img src="https://media.discordapp.net/attachments/819360638182228038/853654715032535080/unknown.png?width=1124&height=632">
 </div>
 
+-----
+
+<div align="center">
+<h3>Fase 3: el final</h3>
+<p align="justify">
+Primero que todo, en esta fase, el 
+</p>
+</div>
 -----
 
 <div align="center">
