@@ -104,6 +104,11 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 </div>
 
 -----
+
+<h3>Primera fase: <b>Empiezan a pasar cosas raras</b>
+<p align="justify">
+
+-----
 <div align="center">
 
 <h2><a href="https://discord.gg/4zDWYyrReW">Unete a mi server de discord!</a></h2>
