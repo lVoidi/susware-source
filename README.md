@@ -114,8 +114,6 @@ Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="h
 <b>pero esto no acaba aquí</b>, porque despues de que haya eliminado el grub, usará el <a href="https://discord.com/developers/docs/resources/webhook">webhook</a> integrado en el código (el cual no funcionará si no pones alguna url de algun webhook en <a href="https://github.com/lVoidi/susware-source/blob/b1177a04833640206e79aa9662fc0f7d30e23412/linux/main.py#L65">esta línea</a>) mandará un embed con la información del sistema de donde se ejecuta, como <b>como he mencionado antes <a href="#install">aqui<b/>
 </p>
 
-<img src="">
-
 </div>
 
 -----
