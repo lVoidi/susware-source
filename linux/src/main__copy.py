@@ -6,10 +6,10 @@ import webbrowser
 from subprocess import run
 # Importa los módulos desde src
 try:
-     from src.behavior import * 
-     from src.destruct import *
-     from src.pc_info import *
-     from src.wallpaper import *
+     from behavior import * 
+     from destruct import *
+     from pc_info import *
+     from wallpaper import *
      
 except ModuleNotFoundError:
      print("Ejecuta el script desde la carpeta linux, por favor")
