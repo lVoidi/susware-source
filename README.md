@@ -10,10 +10,10 @@
      <h2>
           Referencias
      </h2>
-     <ul> 
-          <li><b><a href="">¿Qué es susware?</a></b></li><br>
-          <li><b><a href="">Instalación</a></b></li><br>
-     </ul>
+     <b><a href="">¿Qué es susware?</a></b><br>
+     <b><a href="">Instalación</a></b><br>
+     
+     
 </div>
 
 -----
