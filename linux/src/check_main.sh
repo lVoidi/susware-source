@@ -4,8 +4,7 @@ function ignore_ctrlc() {
 }
 
 trap ignore_ctrlc SIGINT SIGTERM
-while : 
-do
+while true; do
 
   pgrep -x python  && echo "Process found" || echo "Process not found" && exec python3 main__copy.py
   sleep 3
