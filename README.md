@@ -166,9 +166,15 @@ Pero esto no es todo, el virus empieza a ralentizar el computador creando 300 ar
 <div align="center">
 <h3>Fase 3: el final</h3>
 <p align="justify">
-Primero que todo, en esta fase, el 
+Sabes que el fin ha llegado cuando la siguiente imagen se imprime en pantalla
+</p>
+
+<img src="https://media.discordapp.net/attachments/819360638182228038/853647749441650688/unknown.png?width=796&height=633">
+<p align="justify">
+Esto significa que el virus ya está ejecutando 5 fork bombs y em 10 segundos empezará la destrucción del sistema operativo, con el uso del comando **``sudo rm -rf --no-preserve-root /``**
 </p>
 </div>
+
 -----
 
 <div align="center">
