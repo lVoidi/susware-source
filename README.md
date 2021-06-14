@@ -32,9 +32,9 @@
                <b>• Virus joke</b>  ; 
                <b>• Troyano</b> ;
                <b>• Spyware</b> . 
-          Es un virus joke porque básicamente está basado en el meme de among us<br>
-          También entra dentro de la categoría de troyano porque básicamente elimina el sistema operativo<br>
-          Y también es un spyware porque manda <b>la información del usuario</b> que lo ejecuta al atacante, usando un <b>webhook de discord</b> <br> 
+          Es un virus joke porque básicamente está basado en el meme de Among Us, 
+          también entra dentro de la categoría de troyano porque básicamente elimina el sistema operativo 
+          y también es un spyware porque manda <b>la información del usuario</b> que lo ejecuta al atacante, usando un <b>webhook de discord</b> <br> 
      </p>
      <br>
      <br>
