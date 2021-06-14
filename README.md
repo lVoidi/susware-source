@@ -14,13 +14,12 @@
 -----
 
 <div align="center">
-     <h2>
-          Referencias
-     </h2>
+     <details open="open">
+     <summary>Referencias</summary>
      <b><a href="#susware">¿Qué es susware?</a></b><br>
      <b><a href="#install">Instalación</a></b><br>
      <b><a href="#funcionamiento">Funcionamiento</a></b><br>
-     
+     </details>
 </div>
 
 -----
