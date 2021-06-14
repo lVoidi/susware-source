@@ -1,4 +1,2 @@
-pyautogui
-requests
 discord-webhook
 playsound
