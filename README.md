@@ -31,7 +31,7 @@
           Y también es un spyware porque manda <b>la información del usuario</b> que lo ejecuta al atacante, usando un <b>webhook de discord</b> <br> 
      </p>
      <br>
------
+     <br>
      <br>
      <h3> Lenguajes usados en el projecto</h3>
      <img src="https://media.discordapp.net/attachments/845471921990008835/853866822112378900/usedlanguages.png">
