@@ -28,7 +28,7 @@
      <h3> ¿Que es susware?</h3>  
      <p align="justify">
           Susware es un malware joke hecho con el objetivo de sacar una sonrisa, el 
-          Susware puede entrar dentro de 3 categorías : <br>
+          Susware puede entrar dentro de 3 categorías : 
                <b>• Virus joke</b>  ; 
                <b>• Troyano</b> ;
                <b>• Spyware</b> . 
