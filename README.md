@@ -141,7 +141,11 @@ Todo esto está documentado en <a href="https://github.com/lVoidi/susware-source
 <h3>Segunda fase: Capturas de pantalla</h3>
 
 <p align="justify">
-Aqui es donde se comienza a poner divertido el virus, porque 
+Aqui es donde se comienza a poner divertido el virus, porque éste empieza a tomar capturas de pantalla del pc entero y las pone de fondo de pantalla, por ahora, no he testeado en <b>entornos reales</b> esta función, por ahora solo la he probado en máquina virtual de <b><a href="https://www.kali.org/">kali linux </a></b>.
+
+<b><a href="https://github.com/lVoidi/susware-source/blob/4b1c6f94132b27404f5183cebbd5c37d34e2983e/linux/src/wallpaper.py#L21">Funcion que toma las capturas</a></b>
+
+
 </p>
 </div>
 
