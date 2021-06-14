@@ -21,7 +21,6 @@
 <div align="center" id="susware">
      <h3> ¿Que es susware?</h3>  
      <p align="justify">
-     <pre>
           Susware es un malware joke hecho con el objetivo de sacar una sonrisa <br>
           Susware puede entrar dentro de 3 categorías <br>
                <b>• Virus joke</b> <br>
@@ -30,7 +29,6 @@
           Es un virus joke porque básicamente está basado en el meme de among us<br>
           También entra dentro de la categoría de troyano porque básicamente elimina el sistema operativo<br>
           Y también es un spyware porque manda <b>la información del usuario</b> que lo ejecuta al atacante, usando un <b>webhook de discord</b> <br> 
-          </pre>
      </p>
      <br>
      <br>
