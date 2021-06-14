@@ -32,7 +32,7 @@
      </p>
      <h3> Lenguajes usados en el projecto</h3>
 
-     ![usedlangs](https://media.discordapp.net/attachments/845471921990008835/853866822112378900/usedlanguages.png)
+     <img src="https://media.discordapp.net/attachments/845471921990008835/853866822112378900/usedlanguages.png">
 
 </div>
 
