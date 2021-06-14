@@ -1,5 +1,12 @@
 <h1 align="center"><i>Susware</i></h1>
 
+<div align="center">
+<img src=https://img.shields.io/github/stars/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/forks/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/issues/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=informational />
+<img src=https://img.shields.io/github/issues-pr/lVoidi/susware-source?style=for-the-badge&logo=appveyor&color=informational />
+</div>
+
 <p align="center" >
      <img src="https://thumbs.gfycat.com/ClutteredWealthyGoitered-max-1mb.gif" width=64>
 </p>
@@ -100,3 +107,4 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 -----
 
 ![Discord Banner 4](https://discordapp.com/api/guilds/844729426843402271/widget.png?style=banner4)
+
