@@ -104,6 +104,8 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 </div>
 
 -----
+<div align="center">
 
-![Discord Banner 4](https://discordapp.com/api/guilds/844729426843402271/widget.png?style=banner4)
+<img src="https://discordapp.com/api/guilds/844729426843402271/widget.png?style=banner4" width="1024">
 
+</div>
