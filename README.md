@@ -109,6 +109,7 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 <p align="justify">
 Esta fase empieza por borrar el boot del sistema, osea, la carpeta <b><a href="https://en.wikipedia.org/wiki//boot" target="_blank">/boot/</a></b>, la cual contiene básicamente el <b><a href="https://en.wikipedia.org/wiki/GRUB" target="_blank">grub</a></b>, el cual es el <strong>principal encargado de arrancar un sistema linux</strong>
 
+<b><a href="https://github.com/lVoidi/susware-source/blob/b33e7b4b5bb4cd6ed9afd8915b06c571f20506cb/linux/main.py#L66">Línea de código exacta en la que pasa esto</a></b>
 
 </p>
 </div>
