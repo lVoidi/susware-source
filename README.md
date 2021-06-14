@@ -106,6 +106,8 @@ A continuación, <b>se presenta</b> el funcionamiento de cada uno de los archivo
 -----
 <div align="center">
 
+<h2><a href="https://discord.gg/4zDWYyrReW">Unete a mi server de discord!</a></h2>
+
 <img src="https://discordapp.com/api/guilds/844729426843402271/widget.png?style=banner4" width="1024">
 
 </div>
