@@ -12,7 +12,7 @@
      </h2>
      <b><a href="#susware">¿Qué es susware?</a></b><br>
      <b><a href="#install">Instalación</a></b><br>
-     
+     <b><a href="#funcionamiento">Funcionamiento</a></b><br>
      
 </div>
 
