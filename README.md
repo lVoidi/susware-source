@@ -30,10 +30,10 @@
           También entra dentro de la categoría de troyano porque básicamente elimina el sistema operativo<br>
           Y también es un spyware porque manda <b>la información del usuario</b> que lo ejecuta al atacante, usando un <b>webhook de discord</b> <br> 
      </p>
+     <h3> Lenguajes usados en el projecto</h3>
 
-     [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lvoidi)](https://github.com/anuraghazra/github-readme-stats)
-
+     ![usedlangs](https://media.discordapp.net/attachments/845471921990008835/853866822112378900/usedlanguages.png)
 
 </div>
 
-
+-----
