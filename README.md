@@ -7,10 +7,26 @@
 -----
 
 <div align="center">
-     <h1>
+     <h2>
           Referencias
-     </h1>
-
-
-
+     </h2>
+     <ul> 
+          <li><b><a href="">¿Qué es susware?</a></b></li><br>
+          <li><b><a href="">Instalación</a></b></li><br>
+     </ul>
 </div>
+
+-----
+
+<div align="center">
+     <h3> ¿Que es susware?</h3>
+     <p>
+          Susware es un malware joke hecho con el objetivo de sacar una sonrisa <br>
+          Susware puede entrar dentro de 3 categorías
+          - Virus joke
+          - Troyano
+          - Spyware
+     </p>
+</div>
+
+
