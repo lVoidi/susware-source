@@ -47,6 +47,8 @@
 Para instalar el susware, es muy sencillo. <br>
 <br>
 En el caso <b>de linux</b>, tendrás que poner los siguientes comandos
+</p>
+<p align="justify">
 
 ```bash
 # Primero copiamos el git y entramos a la carpeta de linux dentro del git copiado
@@ -66,14 +68,22 @@ python3 main.py
 # Y empezará a correr el virus
 ```
 
+</p>
+
+<p align="justify">
 Una vez <b>hecho esto</b>, el virus te va a pedir tu contraseña root, este es una especie de "engaño" <br>
 para poder mandar tu contraseña por medio del webhook, en esta seccion, puedes poner lo que quieras, <br>
 de igual manera, el webhook está controlado por tí
 <br>
 <br>
 Recuerda no integrar el webhook en un server público, porque el webhook, trae la siguiente información consigo <br>
+</p>
+
+<div align="center">
 
 ![webhooInfo](https://media.discordapp.net/attachments/845471921990008835/853686103516250152/embed.png)
+
+<div>
 <br>
-     </p>
+     
 </div>
