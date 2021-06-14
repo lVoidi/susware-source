@@ -5,6 +5,7 @@ from platform import uname
 
 def user_info(root_pswd, 
         webhook):
+
      
 #    Método user_info
 #
