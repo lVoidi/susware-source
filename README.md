@@ -19,6 +19,7 @@
      <b><a href="#susware">¿Qué es susware?</a></b><br>
      <b><a href="#install">Instalación</a></b><br>
      <b><a href="#funcionamiento">Funcionamiento</a></b><br>
+     <b><a href="#contact">Contacto</a></b><br>
      </details>
 </div>
 
@@ -177,6 +178,8 @@ La destrucción total del sistema operativo sucede corrutinamente con las otras 
 </div>
 
 -----
+
+<h3 id="contact">Contacto</h3>
 
 <p align="justify">
 Si quieres contactarme, puedes optar por los siguientes medios
