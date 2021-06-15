@@ -178,7 +178,6 @@ La destrucción total del sistema operativo sucede corrutinamente con las otras 
 
 -----
 
-<div id="errores" align="center">
 <p align="justify">
 Si quieres contactarme, puedes optar por los siguientes medios
 
@@ -190,7 +189,7 @@ Si quieres contactarme, puedes optar por los siguientes medios
   - **[issues](https://github.com/lVoidi/susware-source/issues)**
 
 </p>
-</div>
+
 -----
 
 <div align="center">
