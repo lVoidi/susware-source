@@ -7,16 +7,22 @@ from tkinter import messagebox
 
 # Por si hay algún error
 def handle(e):
+    
+               
+     exc_type, exc_obj, exc_tb = exc_info()
+     fname = path.split(exc_tb.tb_frame.f_code.co_filename)[1]
      exc = f"""
 Error en el archivo {__file__}:
 Nombre del error: {type(e).__name__}
 
 Descripción del error: {e}
+
+Información detallada: {exc_type} 
+Archivo: {fname} 
+Línea: {exc_tb.tb_lineno}
+
                """
-               
-     exc_type, exc_obj, exc_tb = exc_info()
-     fname = path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-     print(exc_type, fname, exc_tb.tb_lineno)
+     print(exc)
 
 def webOpen():
      try:
@@ -30,24 +36,33 @@ def webOpen():
                'https://www.google.com/search?q=descargar+minecraft+premium+gratis+linux+tentador+2020',
                'http://4.bp.blogspot.com/-w6UkeTKqd3E/UpdEMzDKJFI/AAAAAAAAFEE/rh0BkH-AklU/s1600/3d-trollface-nodding-ok-yes-agree-troll-face.gif'
           )
+
+#         Abre 15 pestañas eligiendo aleatoriamente
+#         en la tupla de búsquedas de la parte de arriba
           for _ in range(15):
                wopen(choice(tup_searches))
                sleep(15)               
                
      except KeyboardInterrupt:
+          
+#         Abrirá más terminales por cada vez que el usuario intente cancelar
+#         el programa
           for _ in range(50):
-               system('qterminal')
-               
-               system('terminator')
-               
-               system('alacritty')
-               
-               system('xterm')
-               
-               system('konsole')
-               
-               
-               system('xfce4-terminal-emulator')
+               try:
+                    system('qterminal')
+                    
+                    system('terminator')
+                    
+                    system('alacritty')
+                    
+                    system('xterm')
+                    
+                    system('konsole')
+                    
+                    
+                    system('xfce4-terminal-emulator')
+               except:
+                    pass
           print("XD")
 
      except Exception as e:

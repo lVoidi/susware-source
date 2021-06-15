@@ -5,16 +5,21 @@ from sys import exc_info
 
 # Por si hay algún error
 def handle(e):
+    
+               
+     exc_type, exc_obj, exc_tb = exc_info()
+     fname = path.split(exc_tb.tb_frame.f_code.co_filename)[1]
      exc = f"""
 Error en el archivo {__file__}:
 Nombre del error: {type(e).__name__}
 
 Descripción del error: {e}
+
+Información detallada: {exc_type} 
+Archivo: {fname} 
+Línea: {exc_tb.tb_lineno}
+
                """
-               
-     exc_type, exc_obj, exc_tb = exc_info()
-     fname = path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-     print(exc_type, fname, exc_tb.tb_lineno)
      print(exc)
      
 

