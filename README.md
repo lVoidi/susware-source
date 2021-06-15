@@ -181,12 +181,11 @@ La destrucción total del sistema operativo sucede corrutinamente con las otras 
 <p align="justify">
 Si quieres contactarme, puedes optar por los siguientes medios
 
-- **Telegram**
-  - **[telegram](https://t.me/lVoidi)** 
-- **Discord**
-  - **[discord](https://discord.gg/4zDWYyrReW)**
-- **Issues**
-  - **[issues](https://github.com/lVoidi/susware-source/issues)**
+- **[telegram](https://t.me/lVoidi)** 
+
+- **[discord](https://discord.gg/4zDWYyrReW)**
+
+- **[issues](https://github.com/lVoidi/susware-source/issues)**
 
 </p>
 
