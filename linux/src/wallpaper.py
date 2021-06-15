@@ -61,7 +61,7 @@ def set_wallpapers():
 #         Se ejecuta si no está disponible para la distribución del usuario     
           else:
                print("Lastimosamente este script no está disponible para tu distribución, puedes modificar el código y hacerlo tuyo!")
-               
+               print()
 
 #         Path del wallpaper     
           w_path = f'{homedir}wallpapers'
