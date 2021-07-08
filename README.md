@@ -30,7 +30,6 @@
 - ***[⌌Br3fuck⌏](https://github.com/Br3Fuck)***
      - Fork del webhook spyware: ***[WebhookHardware](https://github.com/Br3Fuck/WebhookHardware)***
      - Contribuidor del proyecto
-     - Ayuda con estilo css
 
 -----
 
