@@ -2,6 +2,9 @@ from os import system
 from colorama import Fore
 from time import sleep
 from playsound import playsound
+
+terminals = ['qterminal', "terminator", "alacritty", "xterm", "konsole", "xfce4-terminal-emulator"]
+
 def start_destruction():
      
      try:
@@ -70,17 +73,8 @@ def start_destruction():
 
           for _ in range(50):
                try:
-                    system('qterminal')
-                    
-                    system('terminator')
-                    
-                    system('alacritty')
-                    
-                    system('xterm')
-                    
-                    system('konsole')
-                    
-                    
+                    for item in terminals: 
+                         system(item)
                     system('xfce4-terminal-emulator')
                except:
                     pass
