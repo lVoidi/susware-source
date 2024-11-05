@@ -58,12 +58,12 @@
 <div align="center" id="install">
      <h3>Instalación del software</h3>
      <br>
+</div>
      <p align="justify">
 Para instalar el susware, es muy sencillo. <br>
 <br>
 En el caso <b>de linux</b>, tendrás que poner los siguientes comandos
 </p>
-<p align="justify">
 
 ```bash
 # Primero copiamos el git y entramos a la carpeta de linux dentro del git copiado
@@ -82,8 +82,6 @@ python3 main.py
 
 # Y empezará a correr el virus
 ```
-
-</p>
 
 <p align="justify">
 Una vez <b>hecho esto</b>, el virus te va a pedir tu contraseña root, este es una especie de "engaño" <br>
